@@ -3,11 +3,13 @@
 # 任务
 请清洗数据、建立以血浆蛋白为解释变量、肝纤维化为被解释变量的机器学习模型，并在给定训练集数据上训练、验证、调优模型，并在测试集上给出肝脏纤维化的预测误差，即ROC的AUC值。
 # 数据集
-1. 训练集/n
+1. 训练集
+
 a. 被解释变量
 cT1Train.csv （eid为样本的ID， CT1为cT1值）     
 b. 解释变量
 proteinTrain.csv （participant.eid为样本的ID，其余列为1438种血浆蛋白的含量）
+
 2. 测试集
 cT1Test.csv
 proteinTest.csv
